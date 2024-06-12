@@ -33,7 +33,7 @@ carpentry: "swc"
 # dc-image:         for Data Carpentry Image Processing
 # swc-inflammation: for Software Carpentry based on the inflammation dataset
 # swc-gapminder:    for Software Carpentry based on the Gapminder dataset
-curriculum: "FIXME"
+curriculum: ""
 
 # If there is both an R and python official version of a curriculum
 # (as listed on https://software-carpentry.org/lessons/ and
@@ -53,7 +53,7 @@ pilot: false
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Workshop Title"
+title: "Viromics2024"
 
 #------------------------------------------------------------
 # Incubator workshop settings (only relevant for workshops teaching a lesson
@@ -78,7 +78,7 @@ title: "Workshop Title"
 # template. Please do not modify this. If you are teaching
 # a custom set of lessons or a single lesson, use a custom
 # schedule.
-kind: "workshop"
+kind: "lesson"
 
 # Magic to make URLs resolve both locally and on GitHub.
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
@@ -91,23 +91,22 @@ repository: <USERNAME>/<PROJECT>
 email: "team@carpentries.org"
 
 # Sites.
-amy_site: "https://amy.carpentries.org"
-carpentries_github: "https://github.com/carpentries"
-carpentries_pages: "https://carpentries.github.io"
-carpentries_site: "https://carpentries.org/"
-dc_site: "https://datacarpentry.org"
-example_repo: "https://github.com/carpentries/lesson-example"
-example_site: "https://carpentries.github.io/lesson-example"
-incubator: "https://carpentries-incubator.org/"
-lc_site: "https://librarycarpentry.org/"
-swc_github: "https://github.com/swcarpentry"
-swc_pages: "https://swcarpentry.github.io"
-swc_site: "https://software-carpentry.org"
-template_repo: "https://github.com/carpentries/styles"
-training_site: "https://carpentries.github.io/instructor-training"
-workshop_repo: "https://github.com/carpentries/workshop-template"
-workshop_site: "https://carpentries.github.io/workshop-template"
-cc_by_human: "https://creativecommons.org/licenses/by/4.0/"
+# amy_site: "https://amy.carpentries.org/"
+# carpentries_github: "https://github.com/carpentries"
+# carpentries_pages: "https://carpentries.github.io"
+# carpentries_site: "https://carpentries.org/"
+# dc_site: "https://datacarpentry.org"
+# example_repo: "https://github.com/carpentries/lesson-example"
+# example_site: "https://carpentries.github.io/lesson-example"
+# lc_site: "https://librarycarpentry.org/"
+# swc_github: "https://github.com/swcarpentry"
+# swc_pages: "https://swcarpentry.github.io"
+# swc_site: "https://software-carpentry.org"
+# template_repo: "https://github.com/carpentries/styles"
+# training_site: "https://carpentries.github.io/instructor-training"
+workshop_repo: "https://https://github.com/MGXlab/Viromics2024/"
+workshop_site: "https://mgxlab.github.io/Viromics2024"
+# cc_by_human: "https://creativecommons.org/licenses/by/4.0/"
 
 # Surveys.
 pre_survey: "https://carpentries.typeform.com/to/wi32rS?slug="
