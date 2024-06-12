@@ -33,7 +33,7 @@ carpentry: "swc"
 # dc-image:         for Data Carpentry Image Processing
 # swc-inflammation: for Software Carpentry based on the inflammation dataset
 # swc-gapminder:    for Software Carpentry based on the Gapminder dataset
-curriculum: ""
+curriculum: "FIXME"
 
 # If there is both an R and python official version of a curriculum
 # (as listed on https://software-carpentry.org/lessons/ and
@@ -78,7 +78,7 @@ title: "Viromics2024"
 # template. Please do not modify this. If you are teaching
 # a custom set of lessons or a single lesson, use a custom
 # schedule.
-kind: "lesson"
+kind: "workshop"
 
 # Magic to make URLs resolve both locally and on GitHub.
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
