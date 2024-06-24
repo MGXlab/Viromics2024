@@ -25,10 +25,6 @@ carpentry: "swc"
 # Possible values: "pre-alpha", "alpha", "beta", "stable"
 life_cycle: "stable"
 
-# If the workshop will be a lesson pilot (for a new official lesson or
-# a lesson in The Carpentries Incubator), set pilot to "true"
-pilot: false
-
 # Overall title for the Workshop.
 # This variable is used to (optionally) add a title in the "jumbotron"
 # (the grey box at the top of the page), and to the extra pages.
