@@ -82,7 +82,7 @@ email: "team@carpentries.org"
 # swc_site: "https://software-carpentry.org"
 # template_repo: "https://github.com/carpentries/styles"
 # training_site: "https://carpentries.github.io/instructor-training"
-workshop_repo: "https://https://github.com/MGXlab/Viromics2024/"
+workshop_repo: "https://github.com/MGXlab/Viromics2024/"
 workshop_site: "https://mgxlab.github.io/Viromics2024"
 # cc_by_human: "https://creativecommons.org/licenses/by/4.0/"
 
