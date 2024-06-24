@@ -20,28 +20,10 @@
 # lines further down this file and add the URL to the relevant lesson site.
 carpentry: "swc"
 
-# This option is currently only needed for
-# Data Carpentry and Software Carpentry workshops.
-# The value of the variable will be ignored for Library Carpentry
-# workshops.
-# Possible values are:
-# dc-astronomy:     for Data Carpentry Astronomy
-# dc-ecology:       for Data Carpentry Ecology
-# dc-genomics:      for Data Carpentry Genomics
-# dc-socsci:        for Data Carpentry Social Sciences
-# dc-geospatial:    for Data Carpentry Geospatial
-# dc-image:         for Data Carpentry Image Processing
-# swc-inflammation: for Software Carpentry based on the inflammation dataset
-# swc-gapminder:    for Software Carpentry based on the Gapminder dataset
-curriculum: "FIXME"
-
-# If there is both an R and python official version of a curriculum
-# (as listed on https://software-carpentry.org/lessons/ and
-# https://datacarpentry.org/lessons/), change the
-# value of the variable below ("flavor") to get the schedule and installation
-# instructions updated accordingly (valid values are 'r' or 'python').
-# Note: this is only for Data Carpentry and SWC at this time.
-flavor: "FIXME"
+# Life cycle stage of the lesson
+# See this page for more details: https://cdh.carpentries.org/the-lesson-life-cycle.html
+# Possible values: "pre-alpha", "alpha", "beta", "stable"
+life_cycle: "stable"
 
 # If the workshop will be a lesson pilot (for a new official lesson or
 # a lesson in The Carpentries Incubator), set pilot to "true"
@@ -78,7 +60,7 @@ title: "Viromics2024"
 # template. Please do not modify this. If you are teaching
 # a custom set of lessons or a single lesson, use a custom
 # schedule.
-kind: "workshop"
+kind: "lesson"
 
 # Magic to make URLs resolve both locally and on GitHub.
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
