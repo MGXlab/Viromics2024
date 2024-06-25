@@ -1,61 +1,44 @@
 #------------------------------------------------------------
-# Values for this workshop.
+# Values for this lesson.
 #------------------------------------------------------------
-
-# More detailed instructions are available at:
-# https://carpentries.github.io/workshop-template/customization/index.html
 
 # Which carpentry is this ("swc", "dc", "lc", or "cp")?
 # swc: Software Carpentry
-#  dc: Data Carpentry
-#  lc: Library Carpentry
-#  cp: Carpentries (to use for instructor training for instance)
-#  incubator: for workshops teaching a lesson in The Carpentries Incubator
-# Note that for regular workshops, you should use:
-#  https://github.com/carpentries/workshop-template
-# and for instructor training events you should use:
-#  https://github.com/carpentries/training-template
-# When setting this field to "incubator", please uncomment the
-# incubator_lesson_site, incubator_pre_survey, and incubator_post_survey
-# lines further down this file and add the URL to the relevant lesson site.
+# dc: Data Carpentry
+# lc: Library Carpentry
+# cp: Carpentries (to use for instructor traning for instance)
+# incubator: Carpentries Incubator
 carpentry: "swc"
+
+# Overall title for pages.
+title: "Lesson Title"
 
 # Life cycle stage of the lesson
 # See this page for more details: https://cdh.carpentries.org/the-lesson-life-cycle.html
 # Possible values: "pre-alpha", "alpha", "beta", "stable"
-life_cycle: "stable"
+#
+# Lessons that are going through the transition to the
+# Carpentries Workbench will go through 3 steps:
+# 'transition-step-1': notice indicating a new version
+# 'transition-step-2': notice encouraging to use new version
+# 'transition-step-3': notice indicating the lesson is deprecated,
+#                      with automated redirect
+life_cycle: "pre-alpha"
 
-# Overall title for the Workshop.
-# This variable is used to (optionally) add a title in the "jumbotron"
-# (the grey box at the top of the page), and to the extra pages.
-# Most workshops don't use extra pages. More information about extra
-# pages are included in the README:
-# https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Viromics2024"
-
-#------------------------------------------------------------
-# Incubator workshop settings (only relevant for workshops teaching a lesson
-# in The Carpentries Incubator).
-#
-# For an Incubator workshop, uncomment the line below and add the URL of the lesson site.
-# incubator_lesson_site: "put the URL of the lesson being taught here"
-#
-# For an Incubator workshop, uncomment the line below and add the URL of your pre-workshop survey
-# incubator_pre_survey: "put the URL of your pre-workshop survey here"
-#
-# For an Incubator workshop, uncomment the line below and add the URL of your post-workshop survey
-# incubator_post_survey: "put the URL of your post-workshop survey here"
-#
-#------------------------------------------------------------
+# For lessons in the life stages in 'transition-step-1' or later:
+# - 'transition_url' holds the URL for the version of the lesson that
+#    uses the Workbench (needed for all 3 steps)
+# - 'transition_date' (in yyyy-mm-dd format) is the date when the lesson
+#    will transition to being deprecated. The date only needs to be decided
+#    when the lesson is in 'transition-step-2'.
+transition_url:
+transition_date:
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
 #------------------------------------------------------------
 
-# This setting (kind) takes configurations from the styles
-# template. Please do not modify this. If you are teaching
-# a custom set of lessons or a single lesson, use a custom
-# schedule.
+# What kind of thing is this ("workshop" or "lesson")?
 kind: "lesson"
 
 # Magic to make URLs resolve both locally and on GitHub.
@@ -64,31 +47,35 @@ kind: "lesson"
 repository: <USERNAME>/<PROJECT>
 
 # Email address, no mailto:
-# (Don't change this -- the contact address for your workshop will be set
-# in the index.md file)
 email: "team@carpentries.org"
 
 # Sites.
-# amy_site: "https://amy.carpentries.org/"
-# carpentries_github: "https://github.com/carpentries"
-# carpentries_pages: "https://carpentries.github.io"
-# carpentries_site: "https://carpentries.org/"
-# dc_site: "https://datacarpentry.org"
-# example_repo: "https://github.com/carpentries/lesson-example"
-# example_site: "https://carpentries.github.io/lesson-example"
-# lc_site: "https://librarycarpentry.org/"
-# swc_github: "https://github.com/swcarpentry"
-# swc_pages: "https://swcarpentry.github.io"
-# swc_site: "https://software-carpentry.org"
-# template_repo: "https://github.com/carpentries/styles"
-# training_site: "https://carpentries.github.io/instructor-training"
-workshop_repo: "https://github.com/MGXlab/Viromics2024/"
-workshop_site: "https://mgxlab.github.io/Viromics2024"
-# cc_by_human: "https://creativecommons.org/licenses/by/4.0/"
+coc: "https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html"
+amy_site: "https://amy.carpentries.org/"
+carpentries_github: "https://github.com/carpentries"
+carpentries_pages: "https://carpentries.github.io"
+carpentries_site: "https://carpentries.org/"
+dc_site: "https://datacarpentry.org"
+example_repo: "https://github.com/carpentries/lesson-example"
+example_site: "https://carpentries.github.io/lesson-example"
+lc_site: "https://librarycarpentry.org/"
+swc_github: "https://github.com/swcarpentry"
+swc_pages: "https://swcarpentry.github.io"
+swc_site: "https://software-carpentry.org"
+template_repo: "https://github.com/carpentries/styles"
+training_site: "https://carpentries.github.io/instructor-training"
+workshop_repo: "https://github.com/carpentries/workshop-template"
+workshop_site: "https://carpentries.github.io/workshop-template"
+cc_by_human: "https://creativecommons.org/licenses/by/4.0/"
 
 # Surveys.
-pre_survey: "https://carpentries.typeform.com/to/wi32rS?slug="
-post_survey: "https://carpentries.typeform.com/to/UgVdRQ?slug="
+pre_survey: "https://carpentries.typeform.com/to/wi32rS#slug="
+post_survey: "https://carpentries.typeform.com/to/UgVdRQ#slug="
+instructor_pre_survey: "https://carpentries.typeform.com/to/QVOarK#slug="
+instructor_post_survey: "https://carpentries.typeform.com/to/cjJ9UP#slug="
+
+# Set to 'true' for instructor training websites only.
+instructor_training: false
 
 # Start time in minutes (0 to be clock-independent, 540 to show a start at 09:00 am).
 start_time: 0
