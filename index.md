@@ -22,7 +22,8 @@ This repository contains information about the advanced module "Viromics Bioinfo
 - annotation of contigs
 - presentation of the scientific project
 
-> ### Pre-course material:
+> ## Pre-course material:
+> 
 > If you do not have a solid background in linux/bash or programming you can follow the self-study material indicated in this link before the start of the module: [Self-study material](https://github.com/waltercostamb/course_viral-microbiology_2023/blob/main/study_material.md) 
 {: .prereq}
 
