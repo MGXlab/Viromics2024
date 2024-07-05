@@ -12,8 +12,6 @@ This repository contains information about the advanced module "Viromics Bioinfo
 <p align="center">
     <a href="{{ site.carpentries_site }}"><img src="{{ relative_root_path }}/assets/img/slide_module_2024.png" alt="Viromics workflow" /></a>
 </p>
-  
-If you do not have a solid background in linux/bash or programming you can follow the self-study material indicated in this link before the start of the module: [Self-study material](https://github.com/waltercostamb/course_viral-microbiology_2023/blob/main/study_material.md) 
 
 ### Covered topics
 
@@ -24,6 +22,8 @@ If you do not have a solid background in linux/bash or programming you can follo
 - annotation of contigs
 - presentation of the scientific project
 
+> If you do not have a solid background in linux/bash or programming you can follow the self-study material indicated in this link before the start of the module: [Self-study material](https://github.com/waltercostamb/course_viral-microbiology_2023/blob/main/study_material.md) 
+{%:prereq %}
 <!-- this is an html comment -->
 
 {% comment %} This is a comment in Liquid {% endcomment %}
