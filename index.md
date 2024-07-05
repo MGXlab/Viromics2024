@@ -8,10 +8,6 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 
 This repository contains information about the advanced module "Viromics Bioinformatics" of the Masters program in Microbiology of the Friedrich-Schiller University of Jena. It consists of 60 hours dry lab work to be completed in two weeks. Theory will be covered in the mornings and practice in the afternoons. We will focus on Computational Biology/Bioinformatics applied to viromes. 
 
-<p align="center">
-  <img src="./figures/slide_module_2024.png" alt="Alt Text" width="450"/>
-</p>
-
 # Covered topics
 
 In this module we will cover:
