@@ -4,13 +4,9 @@ root: .  # Is the only page that doesn't follow the pattern /:path/index.html
 permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
 ---
 
-# Advanced Module "Viromics-Bioinformatics": 2024
-
 This repository contains information about the advanced module "Viromics Bioinformatics" of the Masters program in Microbiology of the Friedrich-Schiller University of Jena. It consists of 60 hours dry lab work to be completed in two weeks. Theory will be covered in the mornings and practice in the afternoons. We will focus on Computational Biology/Bioinformatics applied to viromes. 
 
-# Covered topics
-
-In this module we will cover:
+## Covered topics
 
 - basic concepts of Computational Biology/Bioinformatics
 - writing of a computational lab book/lab journal
@@ -19,15 +15,13 @@ In this module we will cover:
 - annotation of contigs
 - presentation of the scientific project
 
-
 <!-- this is an html comment -->
 
 {% comment %} This is a comment in Liquid {% endcomment %}
 
 > ## Prerequisites
 >
-> To be admitted to this module, you should have at least a basic-level knowledge of bash/linux command line. Alternatively, you can follow the self study material indicated in the link below before the start of the module.  
-> https://github.com/waltercostamb/course_viral-microbiology_2023/blob/main/study_material.md
+> To be admitted to this module, you should have at least a basic-level knowledge of bash/linux command line. Alternatively, you can follow the self study material indicated in this link before the start of the module: https://github.com/waltercostamb/course_viral-microbiology_2023/blob/main/study_material.md
 {: .prereq}
 
 {% include links.md %}
