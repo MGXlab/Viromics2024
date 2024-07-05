@@ -10,7 +10,7 @@ This repository contains information about the advanced module "Viromics Bioinfo
 
 {% include base_path.html %}
 <p align="center">
-    <a href="{{ site.carpentries_site }}"><img src="{{ relative_root_path }}/assets/img/slide_module_2024.png" alt="Viromics workflow" width="400" /></a>
+    <a href="{{ site.carpentries_site }}"><img src="{{ relative_root_path }}/assets/img/slide_module_2024.png" alt="Viromics workflow" width="800" /></a>
 </p>
 
 ### Covered topics
