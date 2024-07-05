@@ -8,6 +8,7 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 
 This repository contains information about the advanced module "Viromics Bioinformatics" of the Masters program in Microbiology of the Friedrich-Schiller University of Jena. It consists of 60 hours dry lab work to be completed in two weeks. Theory will be covered in the mornings and practice in the afternoons. We will focus on Computational Biology/Bioinformatics applied to viromes. 
 
+{% include base_path.html %}
 <p align="center">
     <a href="{{ site.carpentries_site }}"><img src="{{ relative_root_path }}/assets/img/slide_module_2024.png" alt="Viromics workflow" /></a>
 </p>
