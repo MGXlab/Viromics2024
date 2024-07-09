@@ -14,7 +14,7 @@ keypoints:
 
 In this module you will learn how to analyse bacteriophage sequences with computational approaches. The theoretical part will be covered in the mornings and include discussions. Document any questions and discussion in your lab book. This will also be considered towards your final grade.
 
-The final evaluation will be comprised of:
+The final evaluation comprises:
 
 - Performance in the dry lab (participation, questions, asking for help and helping others) + lab journal (60%)
 - Presentation of a final project (40%)
@@ -36,10 +36,10 @@ Start your lab book today and send a copy of it to your instructor on the last d
 > - Document your work and tasks everyday
 > 
 > - Structure it in a chronological order; each section = new day
->     - Adding sections for specific tasks like "Evaluating sequence quality"
->     - Use meaningful titles
+>     - Adding sections for specific tasks like "01_Evaluating sequence quality"
+>     - Use meaningful and descriptive titles
 >     
-> - Using a logical order for folder and file names (use structure made my instructor)
+> - Using a logical order for folder and file names (use structure made by instructors)
 > 
 > - Include relevant websites, folders where you can find files, tools (names, links, versions) and references
 > 
@@ -60,5 +60,8 @@ The paper "[Ten Simple Rules for a Computational Biologist’s Laboratory Notebo
 [Draco](https://wiki.uni-jena.de/pages/viewpage.action?pageId=22453002) is a high-performance cluster created and maintained by the Universitätsrechenzentrum. It is [available for members of Thuringian Universities](http://sternb.gitpages.tpi.uni-jena.de/draco-101-2023-01/#5). To log in, you can use [ssh](http://sternb.gitpages.tpi.uni-jena.de/draco-101-2023-01/#15): 
 
 ```bash
+
 ssh <fsuid>@login1.draco.uni-jena.de
+
 ```
+
