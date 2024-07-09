@@ -6,15 +6,18 @@ questions: []
 objectives:
   - Understand course scope and evaluation criteria
   - Start and plan an effective lab book
+  - login into Draco
 keypoints:
 ---
 
-## Introduction to the module
+## Introduction
 
-In this module you will learn how to analyse bacteriophage sequences with computational approaches. The theoretical part will be covered in the mornings and include a series of questions. Document the questions and answers in a lab book. These will also be considered in your final evaluation. The evaluation will be composed of:
+In this module you will learn how to analyse bacteriophage sequences with computational approaches. The theoretical part will be covered in the mornings and include discussions. Document any questions and discussion in your lab book. This will also be considered towards your final grade.
 
-- Performance in the dry lab, lab journal (60%)
-- Presentation of the final project (40%)
+The final evaluation will be comprised of:
+
+- Performance in the dry lab (participation, questions, asking for help and helping others) + lab journal (60%)
+- Presentation of a final project (40%)
 
 ## Lab Book
 
@@ -26,21 +29,25 @@ References:
 - https://commonmark.org/help/
 - https://www.markdownguide.org/basic-syntax/
 
-> ## Some *strong* suggestions to write a good lab book:
+Start your lab book today and send a copy of it to your instructor on the last day.
+
+> ## Some *strong* suggestions on writing a good lab book:
 > 
 > - Document your work and tasks everyday
+> 
 > - Structure it in a chronological order; each section = new day
 >     - Adding sections for specific tasks like "Evaluating sequence quality"
 >     - Use meaningful titles
+>     
 > - Using a logical order for folder and file names (use structure made my instructor)
+> 
 > - Include relevant websites, folders where you can find files, tools (names, links, versions) and references
-> {: .source}
+> 
+> An example can be seen [here](https://github.com/waltercostamb/course_viral-microbiology/blob/main/tutorials/lab-book.pdf)
+> 
+>  {: .source}
 {: .callout}
 
-An example can be seen in the link: 
-https://github.com/waltercostamb/course_viral-microbiology/blob/main/tutorials/lab-book.pdf. 
-
-Start your lab book today and send a copy of it to your instructor on the last day.
 
 ## Additional References
 
@@ -48,11 +55,10 @@ The paper "[Ten Simple Rules for a Computational Biologist’s Laboratory Notebo
 
 "[Ten Simple Rules for Reproducible Computational Research](https://app.dimensions.ai/details/publication/pub.1022987921)", by Geir Sandve and collaborators, 2013
 
-# Access to Draco
+## Access to Draco
 
 [Draco](https://wiki.uni-jena.de/pages/viewpage.action?pageId=22453002) is a high-performance cluster created and maintained by the Universitätsrechenzentrum. It is [available for members of Thuringian Universities](http://sternb.gitpages.tpi.uni-jena.de/draco-101-2023-01/#5). To log in, you can use [ssh](http://sternb.gitpages.tpi.uni-jena.de/draco-101-2023-01/#15): 
 
-```sh
+```bash
 ssh <fsuid>@login1.draco.uni-jena.de
 ```
-
