@@ -34,6 +34,8 @@ References:
 >     - Use meaningful titles
 > - Using a logical order for folder and file names (use structure made my instructor)
 > - Include relevant websites, folders where you can find files, tools (names, links, versions) and references
+> {: .source}
+{: .callout}
 
 An example can be seen in the link: 
 https://github.com/waltercostamb/course_viral-microbiology/blob/main/tutorials/lab-book.pdf. 
