@@ -49,7 +49,7 @@ Start your lab book today and send a copy of it to your instructor on the last d
 {: .callout}
 
 
-## Additional References
+### Additional References
 
 The paper "[Ten Simple Rules for a Computational Biologist’s Laboratory Notebook](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004385)", by Santiago Schnell of 2015 offers interesting insights:  Most relevant are rules 4, 6 and 10. Keeping a hard copy of your lab book is not necessary, however make sure you have it backed up.
 
