@@ -1,0 +1,90 @@
+---
+title: Viral Taxonomy and Phylogeny II
+teaching: 180
+exercises: 0
+questions: []
+objectives:
+- Run vConTACT3 to work out the taxonomy of your viruses
+- Interpret this taxonomy
+keypoints:
+---
+
+## What kind of phages exist in your dataset?
+
+For this task we will use [vConTACT3](https://bitbucket.org/MAVERICLab/vcontact3/src/master/) and [geNomad](https://github.com/apcamargo/genomad). 
+
+### vConTACT3 
+
+vConTACT3 has an underlying assumption that the more shared genes a virus has, the more it is related. The resulting viral taxonomy network from vConTACT is strongly correlated with the ICTV taxonomy. 
+
+```bash
+
+source /vast/groups/VEO/tools/anaconda3/etc/profile.d/conda.sh && conda activate mamba_20231101_python_3.9 
+
+# Need to use with db path? 
+vcontact3 --db-path /work/groups/VEO/databases/vcontact3/v20240513/220.json
+
+```
+
+See your options
+
+```bash
+vcontact3 run --help
+```
+
+Example command
+*Note: Take care to have enough memory (RAM) for processing. Vcontact3 loads a full viral network into a graph*
+
+```bash
+
+vcontact3 run --nucleotide virus_genomes.fasta --output output_directory --db-path /work/groups/VEO/databases/vcontact3/v20231101/ -e cytoscape,tree
+
+# other commands you might use
+# -t : threads
+# --distance-metric : {VirClust,SqRoot,Shorter,Jaccard}
+# --min-shared-genes : minimum number of shared genes for two genomes to be connected
+# -e : exporting formats/files
+
+```
+
+### Output hints
+
+`final_assignments.csv` contains your taxonomic assignments
+`.cyjs` files are network files for cytoscape
+`.pkl.gz` files are compressed pickle files (read with python)
+
+### geNomad
+
+geNomad has a different way to assign taxonomy. It uses a marker-gene-to-taxonomy database. It first identifies marker genes on the contigs, classifies the taxonomy for each gene and then consolidates it using weights. [Read it here](https://portal.nersc.gov/genomad/taxonomic_assignment.html)
+
+```bash
+source /vast/groups/VEO/tools/anaconda3/etc/profile.d/conda.sh
+
+conda activate genNomad_v20230721
+
+```
+
+```bash
+
+genomad annotate [OPTIONS] INPUT OUTPUT DATABASE
+
+```
+
+
+> ## Exercise
+>
+> - What percentage of your viruses were classified by each tool?
+> - How can you judge the accuracy of your taxonomic classifications?
+> - How many classifications agree/disagree?
+> - Which viruses are closely related to others?/ which are not?
+> - How closely related do viruses need to be to be connected on this network graph? 
+> - What are the limitations of using these tools?
+>
+> **Pick one of the viral contigs annotated by vConTACT3**
+> - How many genes are shared with known reference viruses?
+> - Which genes are shared with the other known viruses
+> - Visualize your virus on the network using Cytoscape or a dendrogram
+>
+> 
+> {: .source}
+{: .challenge}
