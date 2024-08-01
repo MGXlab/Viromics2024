@@ -31,7 +31,7 @@ Read the following sections from this seminal paper by [Koonin et al.](https://w
 > {: .source}
 {: .discussion}
 
-How are viruses taxonomically classified?
+How are viruses taxonomically classified? 
 
 Given that there is no universal conserved gene, the most typical method involves placement of a viral contig on a gene sharing network. Therefore, more closely related viruses are assumed to share more genes. Genome-to-genome distances are typically calculated based on a summation of the sequence similarity between multiple genes but the formulas on how to do so vary. [VICTOR](https://academic.oup.com/bioinformatics/article/33/21/3396/3933260?login=true) and [vConTACT3](https://bitbucket.org/MAVERICLab/vcontact3/src/master/) work this way.
 
