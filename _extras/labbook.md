@@ -33,7 +33,7 @@ Start your lab book today and send a copy of it to your instructor on the last d
 A plain text editor that is NOT Microsoft Word. 
 
 - [VScode](https://www.freecodecamp.org/news/how-to-use-markdown-in-vscode/)
-    - You can also use VScode for accessing Draco [see here](https://mgxlab.github.io/Viromics2024/1.1.1_introduction/index.html#adding-a-ssh-remote-server-to-vscode)
+    - You can also use VScode for accessing Draco [see here](https://mgxlab.github.io/Viromics2024/draco/index.html)
     
 -  [Obsidian](https://obsidian.md/) (Varada uses for all note-taking)
 
