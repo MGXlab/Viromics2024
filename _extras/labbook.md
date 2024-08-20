@@ -21,7 +21,9 @@ Start your lab book today and send a copy of it to your instructor on the last d
 >     
 > - Using a logical order for folder and file names (use structure made by instructors)
 > 
-> - Include relevant websites, folders where you can find files, tools (names, links, versions) and references
+> - Include relevant websites, folders where you can find files, tools (names, links, versions)
+> 
+> - Include citations for all the papers and tools you reference in your lab book
 > 
 > An example can be seen [here](https://github.com/waltercostamb/course_viral-microbiology/blob/main/tutorials/lab-book.pdf)
 > 
@@ -33,7 +35,7 @@ Start your lab book today and send a copy of it to your instructor on the last d
 A plain text editor that is NOT Microsoft Word. 
 
 - [VScode](https://www.freecodecamp.org/news/how-to-use-markdown-in-vscode/)
-    - You can also use VScode for accessing Draco [see here](https://mgxlab.github.io/Viromics2024/draco/index.html)
+    - You can also use VScode for accessing Draco [see here](https://mgxlab.github.io/Viromics2024/1.1.1_introduction/index.html#adding-a-ssh-remote-server-to-vscode)
     
 -  [Obsidian](https://obsidian.md/) (Varada uses for all note-taking)
 
