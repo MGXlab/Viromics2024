@@ -7,7 +7,7 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 Here you can find information about the advanced module "Viromics Bioinformatics" of the Masters program in Microbiology of the Friedrich-Schiller University of Jena.
 
 - It consists of 60 hours dry lab work to be completed in two weeks
-- You will learn how to analyse bacteriophage sequences with computational approaches
+- Students will learn how to analyse bacteriophage sequences with computational approaches
 - We will cover the following topics:
   - Sequencing quality control
   - Assembly of long-read sequences
