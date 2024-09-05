@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Submitting jobs using sbatch
+title: Submitting jobs using salloc and sbatch
 permalink: /sbatch/index.html
 ---
 
