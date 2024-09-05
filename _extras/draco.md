@@ -45,3 +45,41 @@ Just joking! You can either install the Windows Subystem for Linux (WSL) or **VS
 ![image](https://github.com/user-attachments/assets/d8e9d52b-6695-4608-a33f-9e4a28d11a04)
 
 Then put in your password and you are in!
+
+## File structure
+
+As a best practice in bioinformatics, please number your directories on Draco and add meaningful headers. This makes it easy to trace where your data and outputs are later. An example of this directory numbering looks like below:
+
+.
+├── 1.1_sequencing_qc
+│   └── 10_nanoplot
+├── 1.2_virome_assembly
+│   ├── 10_results_assembly_flye
+│   ├── 20_results_dereplication_vclust
+│   ├── 30_results_assessment_checkv
+│   ├── 40_results_alignment_minimap2
+│   ├── 90_results_binning_coconet
+│   ├── 91_results_binning_vrhyme
+│   ├── 92_results_binning_phables
+├── 1.3_virus_identification
+│   ├── 00_complete_contigs
+│   ├── 10_jaeger
+│   ├── 11_jaeger_metagenomes
+│   └── 20_select_contigs
+├── 1.4_gene_annotation
+│   ├── 00_phanotate
+│   └── 10_phanotate_fasta
+├── 1.5_visualization
+│   ├── 10_results_viral_genome
+│   ├── 20_results_annotate_phanotate
+│   └── 30_results_taxonomic_graph
+├── 2.1_host_prediction
+│   └── 10_results_hostprediction_iphop
+├── 2.2_viral_taxonomy
+│   ├── 00_vcontact3_results
+│   ├── 01_genomad_results
+│   ├── 02_vcontact3_results_new_contig_names
+│   └── 03_genomad_results_new_contig_names
+├── data
+│   ├── alignments
+│   └── sequences
