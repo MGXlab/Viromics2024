@@ -8,6 +8,14 @@ permalink: /sbatch/index.html
 
 We have to get appropriate resources allocated for our jobs. Each job needs its OWN script with different resources. These scripts are a great way to keep track of what resources you needed for the program and also what parameters your program required. 
 
+## salloc
+
+To get resources for an interactive session on the short node for 1 hour with 10 cpus and 1G memory - maybe for testing a program or script
+
+```bash
+salloc --partition=short --time=01:00:00 --cpus-per-task=10 --mem=1G
+```
+
 ## sbatch script
 
 To submit a job, you have to make a script `my_slurm_script.sh` with follow headers. (Change the parameters)
