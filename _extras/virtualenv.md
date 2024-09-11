@@ -14,5 +14,13 @@ your terminal session to use the python binary and packages located within it. T
 convenient way to define a fixed set of dependencies and their version for your code to be
 run on other systems, which might have a different version of python installed.
 
+## Set up the virtual environment
+
 You will use such an environment on draco. To set it up, you can use the following script:
+```
+```
+
+## Add packages to an existing virtual environment
+
+```
 ```
