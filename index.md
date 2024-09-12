@@ -26,6 +26,7 @@ At the top of the webpage, under "Extras", you will find notes on:
 - [writing a good lab book](https://mgxlab.github.io/Viromics2024/labbook/index.html)
 - [accessing the HPC cluster Draco](https://mgxlab.github.io/Viromics2024/draco/index.html)
 - [submitting jobs on draco](https://mgxlab.github.io/Viromics2024/sbatch/index.html)
+- [setting up a python virtual environment](https://mgxlab.github.io/Viromics2024/virtualenv/index.html)
 - [ideas for projects](https://mgxlab.github.io/Viromics2024/draco/index.html)
 
 {% include base_path.html %}
