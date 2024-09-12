@@ -40,20 +40,16 @@
 {% assign episode_objectives = page.objectives %}
 {% endif %}
 
+{% assign total_time = exercise_time | plus: teaching_time %}
 
 <blockquote class="objectives">
   <h2>Overview</h2>
 
   <div class="row">
     <div class="col-md-3">
-	    
-	    {% comment %}
       <strong>Teaching:</strong> {{ teaching_time }} min
       <br/>
       <strong>Exercises:</strong> {{ exercise_time }} min
-	    {% endcomment %}
-      {% assign totaltime = teaching_time | plus: exercise_time}
-      <strong>Scheduled time:</strong> {{ totaltime }} min
     </div>
     <div class="col-md-9">
       <strong>Questions</strong>
