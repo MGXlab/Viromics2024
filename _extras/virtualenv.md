@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Setting up a virtual environment for python
-permalink: /sbatch/index.html
+permalink: /virtualenv/index.html
 ---
 
 ## Overview
