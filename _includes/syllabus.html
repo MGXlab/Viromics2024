@@ -24,12 +24,16 @@
   {% assign current = site.start_time %}
 
   <table class="table table-striped">
+	  
+{% comment %}
   <tr>
     {% if multiday %}<td class="col-md-1"></td>{% endif %}
     <td class="{% if multiday %}col-md-1{% else %}col-md-2{% endif %}"></td>
     <td class="col-md-3"><a href="{{ relative_root_path }}{% link setup.md %}">Setup</a></td>
     <td class="col-md-7">Download files required for the lesson</td>
   </tr>
+{% endcomment %}
+	  
   {% if site.instructor_training %}
   <tr>
     {% if multiday %}<td class="col-md-1"></td>{% endif %}
@@ -63,11 +67,11 @@
     <tr>
       {% if multiday %}<td class="col-md-1">{% if episode.start %}Day {{ day }}{% endif %}</td>{% endif %}
       <td class="{% if multiday %}col-md-1{% else %}col-md-2{% endif %}">{% if hours < 10 %}0{% endif %}{{ hours }}:{% if minutes < 10 %}0{% endif %}{{ minutes }}</td>
-      <td class="col-md-3">
+      <td class="col-md-5">
         {% assign lesson_number = lesson_number | plus: 1 %}
 	{{ lesson_number }}. <a href="{{ relative_root_path }}{{ episode.url }}">{{ episode.title }}</a>
       </td>
-      <td class="col-md-7">
+      <td class="col-md-5">
         {% if episode.break %}
           Break
         {% else %}
