@@ -37,7 +37,10 @@ To add a package to an existing environment, you activate it again and use pip t
 # activate the environment
 $ source path/to/your/py3env/bin/activate
 
-# install package name
+# install package
 $ pip install your_package
+
+# install multiple packages
+$ pip install package1 package2
 ```
 {: .language-bash}
