@@ -17,19 +17,27 @@ run on other systems, which might have a different version of python installed.
 ## Set up the virtual environment
 
 You will use such an environment on draco. To set it up, you can use the following script:
->```bash
-> # Use python3.9 on draco to create a virtual environment
-> $ python3.9 -m venv path/to/your/py3env
-> 
-> # activate the environment
-> $ source path/to/your/py3env/bin/activate
-> 
-> # update pip
-> $ pip install --upgrade pip
-> ```
+
+```bash
+# Use python3.9 on draco to create a virtual environment
+$ python3.9 -m venv path/to/your/py3env
+
+# activate the environment
+$ source path/to/your/py3env/bin/activate
+
+# update pip
+$ pip install --upgrade pip
+```
 {: .language-bash}
 
 ## Add packages to an existing virtual environment
+To add a package to an existing environment, you activate it again and use pip to install it:
 
+```bash
+# activate the environment
+$ source path/to/your/py3env/bin/activate
+
+# install package name
+$ pip install your_package
 ```
-```
+{: .language-bash}
