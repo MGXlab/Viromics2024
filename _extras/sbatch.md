@@ -15,7 +15,7 @@ To get resources for an interactive session on the short node for 1 hour with 10
 ```bash
 salloc --partition=short --time=01:00:00 --cpus-per-task=10 --mem=1G
 ```
-You can run the sbatch scripts introduced below in this interactive session with `bash your_script.sbatch`, which will ignore the instructions slurm uses.
+You can run the sbatch scripts introduced below in this interactive session with `bash your_script.sbatch`, which will ignore the parameters set in them for slurm.
 
 ## sbatch script
 
