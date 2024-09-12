@@ -31,7 +31,7 @@ At the top of the webpage, under "Extras", you will find notes on:
 
 {% include base_path.html %}
 <p align="center">
-    <a href="{{ site.carpentries_site }}"><img src="{{ relative_root_path }}/assets/img/slide_module_2024.png" alt="Viromics workflow" width="800" /></a>
+    <a href="{{ site.carpentries_site }}"><img src="{{ relative_root_path }}/assets/img/logo_no_highlight.png" alt="Viromics workflow" width="1200" /></a>
 </p>
 
 {% include links.md %}
