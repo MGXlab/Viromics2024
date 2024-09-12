@@ -31,6 +31,7 @@ $ pip install --upgrade pip
 {: .language-bash}
 
 ## Add packages to an existing virtual environment
+
 To add a package to an existing environment, you activate it again and use pip to install it:
 
 ```bash
@@ -42,5 +43,22 @@ $ pip install your_package
 
 # install multiple packages
 $ pip install package1 package2
+```
+{: .language-bash}
+
+## Use a virtual environment
+
+You can use the virtual environment by sourcing it in a bash script. All subsequent python commands will
+use the python binary and packages from the environment until you call `deactivate`:
+
+```bash
+# activate the environment
+$ source path/to/your/py3env/bin/activate
+
+# run your python script, potentially with parameters
+$ python your_script.py param1 param2
+
+# deactivate the environment
+$ deactivate
 ```
 {: .language-bash}
