@@ -51,6 +51,8 @@
       <br/>
       <strong>Exercises:</strong> {{ exercise_time }} min
     </div>
+	  
+{% comment %}	  
     <div class="col-md-9">
       <strong>Questions</strong>
       <ul>
@@ -59,8 +61,20 @@
 	{% endfor %}
       </ul>
     </div>
+{% endcomment %}
+	  
+    <div class="col-md-9">
+      <strong>Objectives</strong>
+      <ul>
+	{% for objective in episode_objectives %}
+	<li>{{ objective|markdownify }}</li>
+	{% endfor %}
+      </ul>
+    </div>
+	  
   </div>
-
+	
+{% comment %}	
   <div class="row">
     <div class="col-md-3">
     </div>
@@ -73,5 +87,6 @@
       </ul>
     </div>
   </div>
+{% endcomment %}
 
 </blockquote>
