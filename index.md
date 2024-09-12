@@ -20,7 +20,7 @@ You will learn how to analyse bacteriophage sequences with computational approac
 
 {% include base_path.html %}
 <p align="center">
-    <a href="{{ site.carpentries_site }}"><img src="{{ relative_root_path }}/assets/img/logo_no_highlight.png" alt="Viromics workflow" width="1200" /></a>
+    <a href="{{ site.carpentries_site }}"><img src="{{ relative_root_path }}/assets/img/logo_no_highlight.png" alt="Viromics workflow" width="1600" /></a>
 </p>
 
 At the end of the module, you will have the opportunity to present your work to your classmates and the teachers.
