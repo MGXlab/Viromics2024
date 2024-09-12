@@ -27,6 +27,7 @@ $ source path/to/your/py3env/bin/activate
 # update pip
 $ pip install --upgrade pip
 ```
+{: .language-bash}
 
 ## Add packages to an existing virtual environment
 
