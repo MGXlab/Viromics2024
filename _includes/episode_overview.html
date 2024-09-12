@@ -52,7 +52,8 @@
       <br/>
       <strong>Exercises:</strong> {{ exercise_time }} min
 	    {% endcomment %}
-      <strong>Scheduled time:</strong> {{ teaching_time } + { exercise_time }} min
+      {% assign totaltime = teaching_time | plus: exercise_time}
+      <strong>Scheduled time:</strong> {{ totaltime }} min
     </div>
     <div class="col-md-9">
       <strong>Questions</strong>
