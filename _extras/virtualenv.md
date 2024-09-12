@@ -18,6 +18,14 @@ run on other systems, which might have a different version of python installed.
 
 You will use such an environment on draco. To set it up, you can use the following script:
 ```
+# Use python3.9 on draco to create a virtual environment
+$ python3.9 -m venv path/to/your/py3env
+
+# activate the environment
+$ source path/to/your/py3env/bin/activate
+
+# update pip
+$ pip install --upgrade pip
 ```
 
 ## Add packages to an existing virtual environment
