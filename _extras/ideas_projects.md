@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ideas for Projects
-permalink: /draco/index.html
+permalink: /ideas_projects/index.html
 ---
 
 Here are some ideas for your project:  
