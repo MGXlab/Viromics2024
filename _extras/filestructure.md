@@ -3,6 +3,8 @@ layout: page
 title: Folder Structure and Layout
 permalink: /filestructure/index.html
 ---
+
+```bash
 .
 ├── 1.1_QC
 │   ├── 10_nanoplot
@@ -57,3 +59,4 @@ permalink: /filestructure/index.html
     ├── host_prediction
     ├── identify
     └── qc
+```
