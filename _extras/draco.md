@@ -44,6 +44,9 @@ Just joking! You can either install the Windows Subystem for Linux (WSL) or **VS
 
 ![image](https://github.com/user-attachments/assets/d8e9d52b-6695-4608-a33f-9e4a28d11a04)
 
+![image](https://github.com/user-attachments/assets/8e19f0da-2cbd-4119-bc83-8c63d928d544)
+
+
 Then put in your password and you are in!
 
 ## File structure
