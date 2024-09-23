@@ -32,12 +32,17 @@ permalink: /ideas_projects/index.html
 > phold compare -i pharokka.gbk -o phold_compare_output  --predictions_dir phold_predict_output -t 32
 >
 ```
+
 ### Comparing func annotation between pharokka and genomad
 
 - You could compare functional annotations between pharokka and geNomad
 
-## Other ideas
+## Other ideas for in depth projects
 - Find potential proviruses in the virome dataset
 - Run the full geNomad pipeline `end-to-end` command and check out the outputs. Running the complete pipeline for a 35 kbp viral genome takes 3-4 min
 - When you used Jaeger to identify contigs, you saw that some were identified as viral while others not. You could dig deeper into the why. Do these two sets (viral vs. non-viral contigs) differ? For instance, are there any statistical differences in contig length, completeness and contamination? You could run a statistical test and visualize the distributions.
+- Reassemble with all 7 samples, instead of 3 and make correlations with the salinity
 
+
+
+## Ideas for broader style projects
