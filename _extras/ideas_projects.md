@@ -37,12 +37,11 @@ permalink: /ideas_projects/index.html
 
 - You could compare functional annotations between pharokka and geNomad
 
-## Other ideas for in depth projects
+## Other ideas for detailed analyses projects
+
 - Find potential proviruses in the virome dataset
 - Run the full geNomad pipeline `end-to-end` command and check out the outputs. Running the complete pipeline for a 35 kbp viral genome takes 3-4 min
 - When you used Jaeger to identify contigs, you saw that some were identified as viral while others not. You could dig deeper into the why. Do these two sets (viral vs. non-viral contigs) differ? For instance, are there any statistical differences in contig length, completeness and contamination? You could run a statistical test and visualize the distributions.
 - Reassemble with all 7 samples, instead of 3 and make correlations with the salinity
 
-
-
-## Ideas for broader style projects
+## Ideas for research proposal projects
