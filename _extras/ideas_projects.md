@@ -45,3 +45,5 @@ permalink: /ideas_projects/index.html
 - Reassemble with all 7 samples, instead of 3 and make correlations with the salinity
 
 ## Ideas for research proposal projects
+
+Check the papers we mention in the [main link of project design](https://mgxlab.github.io/Viromics2024/2.3.1_research_question/index.html).
