@@ -33,7 +33,7 @@ permalink: /ideas_projects/index.html
 >
 ```
 
-### Comparing func annotation between pharokka and genomad
+### Comparing functional annotation between pharokka and genomad
 
 - You could compare functional annotations between pharokka and geNomad
 
