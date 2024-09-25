@@ -33,6 +33,8 @@ permalink: /ideas_projects/index.html
 >
 ```
 
+database for phold: -d /veodata/01/databases/phold/v240724/
+
 ### Comparing functional annotation between pharokka and genomad
 
 - You could compare functional annotations between pharokka and geNomad
